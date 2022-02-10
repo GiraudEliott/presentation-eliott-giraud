@@ -1,0 +1,82 @@
+@font-face {
+    font-family: NeutralFace;
+    src: url(./NeutralFace.otf);
+}
+
+#preloader{
+    background: #000 url(./loader_image.gif) no-repeat center center;
+    /* background-size: 30vh; */
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: NeutralFace;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.backvideo{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+h1{
+    color: white !important;
+}
+
+a{
+    color: rgb(184, 0, 92);
+    text-decoration: none;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutmetext1{
+    position: absolute;
+    top: 250px;
+    text-align: justify;
+    text-justify: inter-word;
+    /* border:1px solid red; */
+    width: 70vw;
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+#eliott_pic{
+    position: fixed;
+    right: 30px;
+    top: 270px;
+    display: block;
+    width: 463px ;
+    height: 620px;
+}
+
+/* .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px !important;
+    padding-bottom: 100px;
+    bottom: 0px;
+} */
